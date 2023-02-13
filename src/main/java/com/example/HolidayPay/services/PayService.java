@@ -39,7 +39,7 @@ public class PayService {
             }
         }
 
-        user.setPay(days*(user.getSalary()/21));
+        user.setPay(days*(user.getSalary()/30));
 
         users.add(user);
 
